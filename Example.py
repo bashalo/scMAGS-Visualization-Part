@@ -56,8 +56,6 @@ pol.markers_tSNE()
 
 # Visualization with externally (I randomly create but you can give yours)selected markers
 # Create random genes and dictionary for example
-sel_markers = {}
-sel_markers_ann ={}
 sel_markers_ind = {}
 nof_marker = 3 # Number of Marker for each cluster
 for i in range(len(unq_labels)):
